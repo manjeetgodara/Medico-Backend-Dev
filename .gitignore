@@ -1,0 +1,18 @@
+# Ignore the SQLite database file
+*sqlite3
+
+# Ignore all logs files
+**/log/
+
+# Ignore all __pycache__ directories and .pyc files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the static files
+static/
+
+# Ignore the .env file
+.env
+service-account-file.json
